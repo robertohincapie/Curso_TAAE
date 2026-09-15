@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.12,<3.13"
 dependencies = [
     "datasets>=5.0.0",
+    "factor-analyzer>=0.5.1",
     "ipykernel>=7.3.0",
     "ipython>=9.14.1",
     "jupyter>=1.1.1",
@@ -14,7 +15,7 @@ dependencies = [
     "numpy>=2.4.6",
     "openpyxl>=3.1.5",
     "plotly>=6.8.0",
-    "scikit-learn>=1.9.0",
+    "scikit-learn<1.8",
     "scipy>=1.17.1",
     "seaborn>=0.13.2",
     "statsmodels>=0.14.6",
